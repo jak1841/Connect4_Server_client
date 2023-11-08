@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="InvalidPortnumIp_controller"
+            prefHeight="400.0" prefWidth="600.0" fx:id="root" alignment="CENTER" spacing="50" style="-fx-background-color: #e84b1c;">
+    <Label>Invalid port number or Invalid IP address</Label>
+    <Button onAction="#try_again">Try again</Button>
+
+</VBox>

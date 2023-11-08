@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="Opening_controller"
+      prefHeight="400.0" prefWidth="600.0" fx:id="root" alignment="CENTER" spacing="25" style="-fx-background-color: #228cc9;">
+
+    <ImageView fitWidth="200.0" fitHeight="200.0" >
+        <Image url = "Images/connect4.png"></Image>
+    </ImageView>
+    <Label>Welcome to Connect4 By Rayaan and Jaskarn</Label>
+
+    <TextField fx:id="port_num_textfield" promptText="Enter Port Number Address">5555</TextField>
+    <TextField fx:id="ip_address_textfield" promptText="Enter IP Address">127.0.0.1</TextField>
+
+    <Button onAction="#connect">Connect</Button>
+
+</VBox>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="WinOrTie_controller"
+            prefHeight="400.0" prefWidth="600.0" fx:id="root" alignment="CENTER" spacing="50" style="-fx-background-color: #22c71c;">
+
+    <Label>Someone has won or Lost</Label>
+    <Button onAction="#play_again">Play Again</Button>
+    <Button onAction="#exit_program">Exit</Button>
+
+</VBox>

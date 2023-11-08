@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="GameBoard_controller"
+            prefHeight="400.0" prefWidth="600.0" fx:id="root" >
+    <center>
+
+        <GridPane fx:id="connect4_board_gridpane" ></GridPane>
+
+    </center>
+
+    <right>
+        <VBox>
+            <Label>Game Info</Label>
+            <ListView fx:id="game_info_listview"></ListView>
+        </VBox>
+
+    </right>
+
+</BorderPane>
+
+
